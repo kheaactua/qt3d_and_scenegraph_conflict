@@ -1,0 +1,5 @@
+.ycm_extra_conf.p*
+bld*
+compile_commands.json
+*.depends
+*.sw*

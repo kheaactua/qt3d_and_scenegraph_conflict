@@ -1,0 +1,8 @@
+toomanyconfigs
+syntaxError
+
+// Annoying warning that emerges if you fix all errors of a suppressed type
+unmatchedSuppression
+
+// This emerges in msvc with issues finding system libs
+missingIncludeSystem

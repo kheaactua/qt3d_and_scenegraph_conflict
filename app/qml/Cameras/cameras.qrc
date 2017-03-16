@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>CameraSet.qml</file>
+        <file>SimpleCamera.qml</file>
+        <file>UserCamera.qml</file>
+        <file>BackCamera.qml</file>
+        <file>TopCamera.qml</file>
+    </qresource>
+</RCC>
