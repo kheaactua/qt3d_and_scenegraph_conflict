@@ -1,0 +1,4 @@
+*.vert linguist-language=glsl
+*.frag linguist-language=glsl
+*.comp linguist-language=glsl
+*.qml linguist-language=qml
