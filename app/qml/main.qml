@@ -16,8 +16,6 @@ Item {
 	visible: true
 	anchors.fill: parent
 
-	Theme { id: theme }
-
 	Rectangle {
 		id: scene
 		anchors.fill: parent

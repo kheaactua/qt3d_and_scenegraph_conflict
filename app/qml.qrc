@@ -4,7 +4,6 @@
         <file>qml/Ground.qml</file>
         <file>qml/Ship.qml</file>
         <file>qml/ShipScene.qml</file>
-        <file>qml/Theme.qml</file>
         <file>qml/ViewportFrameGraphs.qml</file>
         <file>qml/ViewportSlider.qml</file>
         <file>qml/main.qml</file>

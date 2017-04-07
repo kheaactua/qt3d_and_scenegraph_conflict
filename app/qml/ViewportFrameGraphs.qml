@@ -23,7 +23,7 @@ RenderSettings {
 		RenderSurfaceSelector {
 			ClearBuffers {
 				buffers:    ClearBuffers.ColorDepthBuffer
-				clearColor: theme.cSceneClear
+				clearColor: Qt.rgba(parent.red, 0.055, 0.10, 0)
 
 				NoDraw {}
 			}

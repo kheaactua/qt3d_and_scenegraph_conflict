@@ -68,11 +68,11 @@ Rectangle {
 		id: sliderBar
 		height: root.height
 		width:  root.barWidth
-		color: theme.cControl
+		color: "#FF131C33"
 
 		Rectangle {
 			id: sliderGrip
-			color: theme.cControl
+			color: "#FF131C33"
 			radius: 2
 
 			width: parent.width * 0.8
@@ -116,7 +116,7 @@ Rectangle {
 	Rectangle {
 		id: horizontalPartition
 
-		color: theme.cControl
+		color: "#FF131C33"
 
 		width:  root.parent.width - root.x + barWidth
 		height: horizontalPartitionWidth
