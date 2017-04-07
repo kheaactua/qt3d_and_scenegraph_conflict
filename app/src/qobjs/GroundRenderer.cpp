@@ -217,6 +217,10 @@ auto GroundRenderer::compute() -> void // {{{
 
 auto GroundRenderer::paintGL() -> void // {{{
 {
+    glClearColor(0.039, 0.055, 0.10, 1);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glDisable(GL_DEPTH_TEST);
+
     // Bind the buffer to the OpenGL Context
     if (!pointOpenGLBuffer_.bind()) {
         qWarning("Could not bind pointOpenGLBuffer");

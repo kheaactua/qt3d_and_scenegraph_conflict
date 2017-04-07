@@ -85,7 +85,7 @@ auto GroundModel::sync() -> void
     if (!renderer_)
     {
         renderer_ = App::Memory::make_unique<GroundRenderer>(this);
-        connect(window(), &QQuickWindow::afterRendering, renderer_.get(), &GroundRenderer::paint, Qt::DirectConnection);
+        connect(window(), &QQuickWindow::beforeRendering, renderer_.get(), &GroundRenderer::paint, Qt::DirectConnection);
     }
 
     renderer_->setWindow(window());

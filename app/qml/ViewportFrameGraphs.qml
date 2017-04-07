@@ -21,12 +21,12 @@ RenderSettings {
 		normalizedRect: Qt.rect(0.0, 0.0, 1.0, 1.0)
 
 		RenderSurfaceSelector {
-			ClearBuffers {
-				buffers:    ClearBuffers.ColorDepthBuffer
-				clearColor: Qt.rgba(parent.red, 0.055, 0.10, 0)
-
-				NoDraw {}
-			}
+			// ClearBuffers {
+			// 	buffers:    ClearBuffers.ColorDepthBuffer
+			// 	clearColor: Qt.rgba(parent.red, 0.055, 0.10, 0)
+         //
+			// 	NoDraw {}
+			// }
 
 			// I think this can save GPU time by only rendering what can be seen?
 			FrustumCulling {}
